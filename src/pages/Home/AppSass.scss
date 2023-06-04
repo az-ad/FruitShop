@@ -1,0 +1,73 @@
+@import "./mixins";
+@import "./variables";
+// // body {
+// //     font-family: 'Poppins', sans-serif;
+// //     margin: 0;
+// // }
+
+// h1 {
+//     font-size: 50px;
+//     color: gray;
+// }
+
+// h3 {
+//     font-size: 90%;
+//     color: rgb(27, 8, 8);
+//     padding-bottom: 20px;
+// }
+
+// p {
+//     padding-bottom: 20px;
+//     padding-right: 30px;
+//     color: rgb(151, 137, 137);
+// }
+
+// .h1class {
+//     font-size: 50px;
+//     color: gray;
+// }
+
+
+
+.flex-container-sass {
+    @include vertical-list;
+
+    // display: flex;
+    .orange-color {
+        color: $text-color2;
+    }
+
+    .h1class {
+        font-size: $font-size1;
+        color: $text-color;
+        margin-top: $margin-top1;
+
+    }
+
+    p {
+        padding-bottom: $padding-bottom1;
+        padding-right: $padding-right1;
+        color: $text-color3;
+    }
+
+    .half-width {
+        width: $width1;
+        padding-left: $padding-left1;
+        padding-top: $padding-top1;
+        // width1: 50%;
+        // padding-left1: 5%;
+        // padding-top1: 10%;
+    }
+}
+
+// .flex-conteiner-sass {
+//     display: flex;
+//     font-family: 'Poppins', sans-serif;
+
+// }
+
+// .half-width {
+//     width: 50%;
+//     padding-left: 5%;
+//     padding-top: 10%;
+// }

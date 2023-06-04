@@ -11,13 +11,15 @@
     "@testing-library/user-event": "^13.5.0",
     "daisyui": "^2.42.1",
     "firebase": "^9.16.0",
-    "gsap": "^3.11.3",
+    "gsap": "^3.11.5",
     "react": "^18.2.0",
     "react-datepicker": "^4.8.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.40.0",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "sass": "^1.62.1",
+    "split-type": "^0.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

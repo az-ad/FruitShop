@@ -1,39 +1,50 @@
 import React from 'react';
 import banner from '../../images/banner.jpg'
 import background1 from '../../images/home_background.jpg'
-import background from '../../images/background.jpg'
+import background4 from '../../images/background4.jpg'
+import background5 from '../../images/background5.jpg'
+import { gsap } from 'gsap'
+import SplitType from 'split-type'
+import "./Banner.css"
 
 import appleCartoon from '../../images/cartoon-character-food-removebg-preview.png'
 const Banner = () => {
+    const ourText = new SplitType('p.our-text', { types: 'chars' })
+    const chars = ourText.chars
+    gsap.fromTo(
+        // chars,
+        // {
+        //     opacity: 0, y: 50
+        // },
+        // {
+        //     opacity: 1, y: 0, duration: 1, delay: 5
+        // }
+        chars,
+        {
+            y: 100,
+            opacity: 0
+        },
+        {
+            y: 0,
+            opacity: 1,
+            stagger: 0.05,
+            duration: 2,
+            ease: 'power4.out',
+        }
+
+    )
+
+
+
     return (
-        // <div class="hero min-h-screen bg-red-50 px-12">
-        //     {/* <img className='w-full' src={background}></img> */}
-        //     <div class="hero-content flex-col lg:flex-row-reverse ">
-        //         <img src={banner} class="max-w-md rounded-lg shadow-2xl " />
-        //         <div>
-        //             <h1 class="text-5xl font-bold">Eat fresh fruit daily & stay healthy</h1>
-        //             <p class="py-6 ">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-        //             <button class="btn btn-primary">Get Started</button>
-        //         </div>
-        //     </div>
-        // </div>
-        // <div className="hero min-h-screen" style={{ backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztzGsvt8xrKcQbwtUFnhumHoW2RSjRqGxFw&usqp=CAU")` }}>
-        //     <img className='w-full' src={background}></img>
-        //     <div className="hero-overlay bg-opacity-60"></div>
-        //     <div className="hero-content text-center text-neutral-content">
-        //         <div className="max-w-md">
-        //             <h1 className="mb-5 text-5xl font-bold">Eat fresh fruit daily & stay healthy</h1>
-        //             <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-        //             <button className="btn btn-primary">Get Started</button>
-        //         </div>
-        //     </div>
+
         <div className="hero min-h-screen">
-            <img className='w-full' src={background}></img>
+            <img className='w-full' src={background4}></img>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">Eat fresh fruit daily & stay healthy</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <div className="max-w-md container">
+                    <h1 className=" mb-5 text-5xl font-bold">Eat fresh fruit daily & stay healthy</h1>
+                    <p className="our-text mb-5">We ensure fresh fuits which are totally bad chemical free. Your health safety our responsibility. Stay tuned with azad fruit shop for fresh and healthy varities fruits. Thank you so much.</p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>

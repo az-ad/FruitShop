@@ -17,6 +17,7 @@ import SignUp from './pages/Login/SignUp';
 import Location from './pages/Location/Location';
 import Review from './pages/Review/Review';
 import Contact from './pages/Contact/Contact';
+import Classify from './pages/Classify/Classify';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="location" element={<Location></Location>}></Route>
         <Route path="reviews" element={<Review></Review>}></Route>
         <Route path="contact" element={<Contact></Contact>}></Route>
+        <Route path="classify" element={<Classify></Classify>}></Route>
 
       </Routes>
 

@@ -5,6 +5,7 @@ import Info from './Info';
 import About from '../About/About';
 import AnimationGsap from './AnimationGsap';
 import AppSass from './AppSass';
+import Services from './Services/Services';
 // import Anim from './anim';
 
 
@@ -14,8 +15,9 @@ const Home = () => {
             <Banner></Banner>
             <Info></Info>
             <About></About>
-            <AnimationGsap></AnimationGsap>
             <AppSass></AppSass>
+            <AnimationGsap></AnimationGsap>
+            <Services></Services>
             <Footer></Footer>
 
 

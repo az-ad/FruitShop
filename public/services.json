@@ -1,0 +1,68 @@
+[
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Apple",
+        "img": "https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834",
+        "price": "250"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Black Monukka Seedless Grape Vine",
+        "img": "https://img.imageboss.me/fourwinds/width/425/dpr:2/s/files/1/2336/3219/products/blackmonukka.jpg?v=1538780984",
+        "price": "500"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Green Grapes",
+        "img": "https://chaldn.com/_mpimage/sobuj-angur-green-grapes-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D134876&q=best&v=1",
+        "price": "250"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Peers",
+        "img": "https://handshoppy.in/wp-content/uploads/2022/07/pears.jpg",
+        "price": "350"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Mangoo",
+        "img": "https://t4.ftcdn.net/jpg/02/71/66/91/360_F_271669174_2dHs4FO3SV83lQ4MjswEBa4LQTGjMO4E.jpg",
+        "price": "160"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Guava",
+        "img": "https://t4.ftcdn.net/jpg/03/93/00/37/360_F_393003738_ZUGSxld5JsVt7BUVbpRIc7U1nTPFG8Zf.jpg",
+        "price": "90"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Pineapple",
+        "img": "https://media.istockphoto.com/id/1064819674/photo/whole-with-slice-ripe-pineapple-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=I8BF1t5J7tVGGrWvZs8LQJLoxgIhIVWVY9KSMt8QR0M=",
+        "price": "120"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Watermelon",
+        "img": "https://media.istockphoto.com/id/1142119394/photo/whole-and-slices-watermelon-fruit-isolated-on-white-background.jpg?s=170667a&w=0&k=20&c=WFsJlehj-cGDz8CJ8cgLtz45Eq4-BVIpvTvD4kFTgG8=",
+        "price": "100"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Lotkon",
+        "img": "https://t4.ftcdn.net/jpg/00/34/26/83/360_F_34268345_KL1ke5879aNMmOby9SUsk5bjkf9tvge5.jpg",
+        "price": "150"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Banana",
+        "img": "https://i.pinimg.com/originals/71/20/d2/7120d2bc10055a9bf94bba45ccb4398a.png",
+        "price": "80"
+    },
+    {
+        "_id": "647f11bfccf5c9c5f3820e12",
+        "title": "Strawberry",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZ1MfqYctEV4OcbXkL9ucdyo4cEleJJcJkw&usqp=CAU",
+        "price": "300"
+    }
+]

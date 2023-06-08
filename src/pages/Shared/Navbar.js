@@ -2,6 +2,8 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Contexts/AuthProvider';
 import logo from '../../images/logo-navbar.png'
+import About from '../About/About';
+import AppSass from '../Home/AppSass';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -12,21 +14,31 @@ const Navbar = () => {
     }
     const menuItems = <React.Fragment>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        {/* <li><Link to="/about">About</Link></li>
 
-        <li><Link to="/location">Location</Link></li>
+        <li><Link to="/location">Location</Link></li> */}
         <li tabindex="0">
-            <Link to="/fruits">
-                Available fruits
+            <Link to="">
+                Explore More
                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </Link>
             <ul class="p-2">
-                <li><a>Appple</a></li>
-                <li><a>Mangoo</a></li>
+                <li className='bg-slate-200'><a >About us</a>
+                    <ul >
+                        <details className="dropdown dropdown-left ">
+                            <summary className="m-1 ">Find more</summary>
+                            <ul className=" shadow menu dropdown-content bg-base-100 rounded-box ">
+                                <li><Link to="/location">Location</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                            </ul>
+                        </details>
+                    </ul></li>
+                <li className='bg-slate-200'><Link to="/contact">Contact us</Link></li>
             </ul>
         </li>
+        <li><Link to="/classify">Classify</Link></li>
         <li><Link to="/reviews">Reviews</Link></li>
-        <li><Link to="/contact">Contact us</Link></li>
+        {/* <li><Link to="/contact">Contact us</Link></li> */}
         {user?.uid ?
             <li><button onClick={handleLogOut}>Sign out</button></li>
             : <li><Link to="/login">Log in</Link></li>}

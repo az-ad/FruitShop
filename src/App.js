@@ -19,6 +19,7 @@ import Review from './pages/Review/Review';
 import Contact from './pages/Contact/Contact';
 import Classify from './pages/Classify/Classify';
 import Services from './pages/Home/Services/Services';
+import Post from './pages/Post';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="contact" element={<Contact></Contact>}></Route>
         <Route path="classify" element={<Classify></Classify>}></Route>
         <Route path="services" element={<Services></Services>}></Route>
+        <Route path="posts" element={<Post></Post>}></Route>
 
       </Routes>
 

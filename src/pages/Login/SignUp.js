@@ -58,6 +58,7 @@ const SignUp = () => {
         fetch('http://localhost:5000/user')
             .then(res => res.json())
             .then(data => setExistingUsers(data));
+        console.log(existingUsers);
 
     }, [])
     const handleUserName = (e) => {
@@ -88,7 +89,7 @@ const SignUp = () => {
                 <div class="card-body">
                     <h2 class="text-center text-2xl font-bold">Sign Up</h2>
 
-                    <form onSubmit={handleSubmit(onSubmit)}>
+                    <form className='form' onSubmit={handleSubmit(onSubmit)}>
 
                         <div class="form-control w-full max-w-xs">
                             <label class="label">

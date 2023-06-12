@@ -30,6 +30,7 @@ const Navbar = () => {
                             <ul className=" shadow menu dropdown-content bg-base-100 rounded-box ">
                                 <li><Link to="/location">Location</Link></li>
                                 <li><Link to="/about">About</Link></li>
+                                <li><Link to="/posts">Post</Link></li>
                             </ul>
                         </details>
                     </ul></li>
@@ -57,7 +58,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Azad fruit shop</a>
+                <a class="btn btn-ghost normal-case text-xl"> Fruit shop</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

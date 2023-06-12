@@ -60,8 +60,8 @@ const AnimationGsap = () => {
             <h2 className="text-rose-400" ref={headlineRef}>Follow Us</h2>
             <h3 ref={subheadlineRef}>Don't forget to purchace again.</h3>
             <p ref={descriptionRef} className="aboutdes">
-                We are always ready to serve you the best & fresh fuits of the world.
-                We all know that fresh fruits keeps our body strong and free from disease. So purchase fresh fruits daily from us and ensure your health improvement.
+                We are always ready to serve you the best & fresh fuits of the world.<br></br>
+                We all know that fresh fruits keeps our body strong and free from disease.<br></br> So purchase fresh fruits daily from us and ensure your health improvement.
 
             </p>
 

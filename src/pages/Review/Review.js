@@ -31,17 +31,6 @@ const Review = () => {
             })
             .catch(err => console.error(err))
         event.target.reset();
-        // fetch('http://localhost:5000/comment', {
-        //     method: 'POST', // or 'PUT'
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(user)
-        // })
-        //     .then(res => res.json)
-        //     .then(data => console.log(data))
-        //     .catch(err => console.error(err))
-
 
 
     }

@@ -45,7 +45,7 @@ const Classify = () => {
         const imgData = new FormData();
         imgData.set("key", "093661671de099bd3603fff021dd0053");
         imgData.append("image", img);
-
+        //-----------hosting image to imgbb-------------//
         fetch("https://api.imgbb.com/1/upload", {
             method: "POST",
             body: imgData,
@@ -61,20 +61,20 @@ const Classify = () => {
         updateFunction(file);
     }
     console.log(imgBB);
-    const handleImageUpload = (event) => {
+    // const handleImageUpload = (event) => {
 
-        let reader = new FileReader();
-        reader.readAsDataURL(event.target.files[0]);
-        reader.onload = () => {
-            // console.log(reader.result);
-            setSelectedImage(reader.result);
-            setPreviewImage(reader.result);
-        }
-        reader.onerror = (event) => {
-            // console.log("error", event);
-        }
+    //     let reader = new FileReader();
+    //     reader.readAsDataURL(event.target.files[0]);
+    //     reader.onload = () => {
+    //         // console.log(reader.result);
+    //         setSelectedImage(reader.result);
+    //         setPreviewImage(reader.result);
+    //     }
+    //     reader.onerror = (event) => {
+    //         // console.log("error", event);
+    //     }
 
-    };
+    // };
     // console.log(imgBB);
 
     const handleClassification = () => {

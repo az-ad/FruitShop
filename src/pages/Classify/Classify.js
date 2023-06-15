@@ -125,16 +125,26 @@ const Classify = () => {
                 </div>
             </div>
             <div>
-                <div className="card w-96 bg-neutral text-neutral-content">
+                {/* <div className="card w-96 bg-neutral text-neutral-content">
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title">{predediction.class}</h2>
-                        {/* <p text-2xl>{predediction.score}</p>  */}
-                        {/* <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Accept</button>
-                            <button className="btn btn-ghost">Deny</button>
-                        </div> */}
+                        <h2 className=" btn btn-outline btn-warning">{predediction.class}</h2>
+                        <p text-2xl>{predediction.score}</p> 
+                       
                     </div>
-                </div>
+                </div> */}
+                {img.length !== 0 ? (
+                    <div className="my-32 card bg-gray-100 h-48 w-96 bg-base-100 shadow-xl">
+                        <div className=" items-center card-body">
+                            <h2 className="my-4 h-24 w-48 text-2xl rounded-bl-lg  items-center btn btn-warning btn-outline">{predediction.class}</h2>
+                        </div>
+                    </div>
+                ) : null}
+                {/* <div className="my-32 card bg-gray-100 h-48 w-96 bg-base-100 shadow-xl">
+                    <div className=" items-center card-body">
+                        <h2 className="my-4 h-24 w-48 text-2xl rounded-bl-lg  items-center btn btn-warning btn-outline">{predediction.class}</h2>
+                    </div>
+                </div> */}
+
                 {/* <h1>{predediction.class}</h1> */}
             </div>
         </div>

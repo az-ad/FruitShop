@@ -20,6 +20,7 @@ import Contact from './pages/Contact/Contact';
 import Classify from './pages/Classify/Classify';
 import Services from './pages/Home/Services/Services';
 import Post from './pages/Post';
+import RatingApp from './pages/Home/Rate/RatingApp';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="classify" element={<Classify></Classify>}></Route>
         <Route path="services" element={<Services></Services>}></Route>
         <Route path="posts" element={<Post></Post>}></Route>
+        <Route path="rate" element={<RatingApp></RatingApp>}></Route>
 
       </Routes>
 
